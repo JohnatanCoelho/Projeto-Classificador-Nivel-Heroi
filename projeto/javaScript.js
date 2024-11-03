@@ -1,6 +1,7 @@
 let nome = "John"
 let xpHeroi = 900
 
+for(let i = 0; i < 3; i++){
 if(xpHeroi <= 1000 ){
     console.log(`O Herói de nome ${nome} está no nível de Ferro`)
 }
@@ -24,4 +25,4 @@ else if((xpHeroi >= 9001) && (xpHeroi <= 10000)){
 }
 else if(xpHeroi >= 10000){
     console.log(`O Herói de nome ${nome} está no nível de Radiante`)
-}
+}}
